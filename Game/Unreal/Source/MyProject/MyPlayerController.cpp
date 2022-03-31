@@ -24,6 +24,6 @@ void AMyPlayerController::OpenMenu()
 	if (AMyHUD* MyMHUD = Cast<AMyHUD>(GetHUD())) /* this is a dynamic pointer, if APlayerController::GetHUD is a pointer for AHUD, this is inside PlayerController.h, 
 												 thats why I can use it. this pointer returns MyHUD which allows MyMHUD to point to ShowMenu */
 	{
-		MyMHUD->ShowMenu(); // could not name this MyHUD, had to name it MyMHUD
+		MyMHUD->ShowMenu(); // could not name this MyHUD, had to name it MyMHUD ......
 	}
 }
